@@ -1,0 +1,14 @@
+﻿<Window x:Class="UnityContainerParallelTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnityContainerParallelTest"
+        mc:Ignorable="d"
+        Title="UnityContainer(5.8.6) Parallel Resolvation Test" Height="400" Width="650">
+    <StackPanel>
+        <Button x:Name="TestStartButton" Content="Test Start" Height="40" Margin="8" Click="TestStartButton_Click"/>
+        <Button x:Name="TestStopButton" Content="Test Stop" Height="40" Margin="8" Click="TestStartButton_Click"/>
+        <TextBlock x:Name="ResultTextBlock" TextWrapping="Wrap"/>
+    </StackPanel>
+</Window>
